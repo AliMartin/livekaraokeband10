@@ -1,0 +1,20 @@
+.mm-page,
+.mm-wrapper_background body {
+  background-color: inherit;
+}
+
+body {
+  background-color: inherit;
+  color: $white;
+}
+
+main .region-content {
+  background-color: rgba(0,0,0,0.8);
+  border-radius: $border-radius;
+  max-width: 850px;
+  margin-top: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  padding: 30px;
+}
