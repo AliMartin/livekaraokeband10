@@ -4,3 +4,11 @@
  * @file
  * Live Karaoke Band theme file.
  */
+
+function lkb10_preprocess_html(&$variables) {
+  // Add node ID to the body class.
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if (is_object($node)) {
+    $variables['attributes']['class'][] = 'node-' . $node->id();
+  }
+}

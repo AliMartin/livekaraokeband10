@@ -12,12 +12,14 @@ ckeditor5-stylesheets:
 regions:
   header: Header
   nav_branding: 'Navigation branding region'
+  upper_cta: 'Upper CTA'
   nav_main: 'Main navigation region'
   nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
   breadcrumb: Breadcrumbs
   content: 'Main content'
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
+  lower_cta: 'Lower CTA'
   footer_upper: 'Upper footer'
   footer_lower: 'Lower footer'
   hidden_blocks: 'Hidden blocks for TB Mega Menu'

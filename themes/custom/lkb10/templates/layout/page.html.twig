@@ -67,6 +67,9 @@ set footer_classes = ' ' ~
       <div id="upper-left-container">
         {{ page.nav_branding }}
       </div>
+      <div id="upper-middle-container">
+        {{ page.upper_cta }}
+      </div>
       <div id="upper-right-container">
       {{ page.nav_additional }}
       </div>
@@ -120,6 +123,10 @@ set footer_classes = ' ' ~
 </main>
 
 <footer role="contentinfo" class="mt-auto {{ footer_classes }}">
+  <div class="cta-footer">
+    <div class="container g-0">
+      {{ page.lower_cta }}
+    </div>
   <div class="upper-footer">
     <div class="container g-0">
       {{ page.footer_upper }}
