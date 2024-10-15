@@ -16,6 +16,7 @@ body {
   color: $white;
 }
 
+
 .page-node-type-article,
 .page-node-type-client,
 .page-node-type-gallery,
@@ -45,6 +46,7 @@ body {
 
 // Node layout overrides
 .page-node-type-gallery,
+// .page-node-type-show,
 .page-node-type-video {
   main .region-content {
     max-width: inherit;
@@ -55,6 +57,11 @@ body {
 
 // Show layout overrides
 .page-node-type-show {
+  main .region-content {
+    max-width: 600px;
+    padding: 15px;
+    margin: 0 auto;
+  }
   .field--name-field-show-location {
     text-align: center;
     font-size: x-large;
@@ -66,15 +73,30 @@ body {
     font-weight: $font-weight-bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   form {
+    font-size: large;
+    line-height: 1.2;
     text-align: center;
     label {
       font-weight: $font-weight-bold;
       margin-bottom: 10px;
     }
+  }
+}
+
+
+// Login screen
+.path-user {
+  main .region-content{
+    background-color: rgba(0,0,0,0.8);
+    border-radius: $border-radius;
+    max-width: 850px;
+    margin: 90px auto;
+    padding: 30px;
+    text-align: center;
   }
 }
 
@@ -206,7 +228,7 @@ p img {
   .page-node-type-news,
   .page-node-type-page,
   .page-node-type-review,
-  .page-node-type-show,
+  // .page-node-type-show,
   .page-node-type-video,
   .page-node-type-webform {
     main .region-content {
@@ -236,7 +258,7 @@ p img {
   .page-node-type-news,
   .page-node-type-page,
   .page-node-type-review,
-  .page-node-type-show,
+  // .page-node-type-show,
   .page-node-type-video,
   .page-node-type-webform {
     main .region-content {

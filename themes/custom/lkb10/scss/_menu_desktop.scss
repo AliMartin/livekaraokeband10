@@ -144,6 +144,9 @@ body:has(.tbm-item.level-1.open) {
 
     .field--name-field-media-image {
       margin: 0;
+      img {
+        border-radius: 5px;
+      }
     }
   }
 

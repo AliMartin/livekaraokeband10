@@ -109,9 +109,22 @@ set footer_classes = ' ' ~
           {{ page.sidebar_first }}
         </div>
       {% endif %}
+
       <div class="order-1 order-lg-2 {{ content_classes }}">
-        {{ page.content }}
+        {% if has_show_content %}
+          <div class="show-is-live">
+            {% if is_front %}
+              {{ drupal_view('show_banner_on_front_page', 'block_1') }}
+            {% endif %}
+            {{ page.content }}
+          </div>
+        {% else %}
+          <div class="show-is-not-live">
+            {{ page.content }}
+          </div>
+        {% endif %}
       </div>
+
       {% if page.sidebar_second %}
         <div class="order-3 {{ sidebar_second_classes }}">
           {{ page.sidebar_second }}

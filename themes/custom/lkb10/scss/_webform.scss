@@ -1,3 +1,12 @@
+.form-control {
+  border: 2px solid $yellow;
+
+  &:focus {
+    border: 2px solid $orange;
+    box-shadow: inherit;
+  }
+}
+
 // Contact form specific styling
 form.webform-submission-contact-form {
   text-align: center;
@@ -31,7 +40,6 @@ form.webform-submission-contact-form {
     }
   }
 
-
   .form-item-package {
     label {
       font-weight: $font-weight-bold;
@@ -46,5 +54,4 @@ form.webform-submission-contact-form {
       margin-bottom: 15px;
     }
   }
-
 }
