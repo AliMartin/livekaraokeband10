@@ -1,0 +1,44 @@
+uuid: 8c10607b-3403-4101-a744-144fee3d270e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.show.field_show_date
+    - field.field.node.show.field_show_location
+    - field.field.node.show.field_song_list
+    - node.type.show
+  module:
+    - field_layout
+    - layout_discovery
+    - manage_display
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.show.teaser
+targetEntityType: node
+bundle: show
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
+hidden:
+  created: true
+  field_show_date: true
+  field_show_location: true
+  field_song_list: true
+  uid: true

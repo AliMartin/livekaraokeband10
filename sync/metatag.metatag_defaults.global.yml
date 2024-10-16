@@ -1,0 +1,14 @@
+uuid: ff548dde-9f96-4a7c-a2d3-77f576868cd5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  keywords: 'live band karaoke, rockaoke, bandeoke, party band, wedding, corporate entertainment'
+  title: '[current-page:title] | [site:name]'
+  canonical_url: '[current-page:url]'
+  rights: 'Hyperluminal Ltd'
+  description: 'live band karaoke, rockaoke, bandeoke, party band, wedding, corporate entertainment'

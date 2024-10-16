@@ -1,0 +1,29 @@
+uuid: 42d3e222-f164-4fdb-b19d-d9cda7c0fc0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.article
+    - field.field.media.image.field_media_image
+    - media.type.image
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+_core:
+  default_config_hash: B1a2aBHmUulUZN6HrxITEH1tSResuVjXMBEv1lUBtOo
+id: media.image.article
+targetEntityType: media
+bundle: image
+mode: article
+content: {  }
+hidden:
+  created: true
+  field_media_image: true
+  name: true
+  thumbnail: true
+  uid: true
