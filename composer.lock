@@ -2688,26 +2688,26 @@
         },
         {
             "name": "drupal/fitvids",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/fitvids.git",
-                "reference": "2.0.0"
+                "reference": "2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/fitvids-2.0.0.zip",
-                "reference": "2.0.0",
-                "shasum": "0fb02d633ca144abee0bfca7b52457c89aba0414"
+                "url": "https://ftp.drupal.org/files/projects/fitvids-2.1.0.zip",
+                "reference": "2.1.0",
+                "shasum": "9bdc84fb6a7c0f03f9172ac7cf2274ccf11ce127"
             },
             "require": {
-                "drupal/core": "^8 || ^9 || ^10"
+                "drupal/core": "^9.2 || ^10 || ^11"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0",
-                    "datestamp": "1669606300",
+                    "version": "2.1.0",
+                    "datestamp": "1729218906",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2724,14 +2724,15 @@
                     "homepage": "https://www.drupal.org/user/167927"
                 },
                 {
-                    "name": "NickDickinsonWilde",
+                    "name": "nickdickinsonwilde",
                     "homepage": "https://www.drupal.org/user/3094661"
                 }
             ],
-            "description": "jQuery plugin for fluid width video embeds.",
+            "description": "Uses the FitVids.js library for fluid width video embeds.",
             "homepage": "https://www.drupal.org/project/fitvids",
             "support": {
-                "source": "https://git.drupalcode.org/project/fitvids"
+                "source": "https://git.drupalcode.org/project/fitvids",
+                "issues": "https://www.drupal.org/project/issues/fitvids"
             }
         },
         {
@@ -3389,17 +3390,17 @@
         },
         {
             "name": "drupal/linkit",
-            "version": "6.1.4",
+            "version": "6.1.6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/linkit.git",
-                "reference": "6.1.4"
+                "reference": "6.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/linkit-6.1.4.zip",
-                "reference": "6.1.4",
-                "shasum": "f5544a39d691af5efd1532bd5403862a7153f60b"
+                "url": "https://ftp.drupal.org/files/projects/linkit-6.1.6.zip",
+                "reference": "6.1.6",
+                "shasum": "113d8e569cfb92f8d7feb0a2f7713953c0715e92"
             },
             "require": {
                 "drupal/core": "^10.1"
@@ -3411,8 +3412,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "6.1.4",
-                    "datestamp": "1715203830",
+                    "version": "6.1.6",
+                    "datestamp": "1729189029",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5708,16 +5709,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8"
+                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
-                "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
+                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
                 "shasum": ""
             },
             "require": {
@@ -5771,7 +5772,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.0.3"
+                "source": "https://github.com/guzzle/promises/tree/2.0.4"
             },
             "funding": [
                 {
@@ -5787,7 +5788,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-18T10:29:17+00:00"
+            "time": "2024-10-17T10:06:22+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
