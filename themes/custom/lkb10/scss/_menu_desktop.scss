@@ -157,12 +157,7 @@ body:has(.tbm-item.level-1.open) {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      gap: 30px;
 
-      > div {
-        width: 50%;
-      }
-      
       .views-field-title {
         font-weight: $font-weight-bold;
         margin-bottom: 15px;
@@ -179,4 +174,17 @@ body:has(.tbm-item.level-1.open) {
       }
     }
 
+    .view-home-page-videos .view-content {
+      gap: 30px;
+      > div {
+        width: 33.33%;
+      }      
+    }
+
+    .view-home-page-galleries .view-content {
+      gap: 0;
+      > div {
+        width: 100%;
+      }
+    }
   }

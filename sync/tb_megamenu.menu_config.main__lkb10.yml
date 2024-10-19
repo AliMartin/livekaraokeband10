@@ -296,7 +296,7 @@ menu_config: |-
                           }
                       ],
                       "col_config": {
-                          "width": "6",
+                          "width": "3",
                           "class": "",
                           "hidewcol": "",
                           "showblocktitle": "1"
@@ -311,7 +311,7 @@ menu_config: |-
                           }
                       ],
                       "col_config": {
-                          "width": "6",
+                          "width": "9",
                           "class": "",
                           "hidewcol": "",
                           "showblocktitle": "1"
@@ -328,7 +328,7 @@ menu_config: |-
                           }
                       ],
                       "col_config": {
-                          "width": "6",
+                          "width": "3",
                           "class": "",
                           "hidewcol": "",
                           "showblocktitle": "1"
@@ -343,7 +343,7 @@ menu_config: |-
                           }
                       ],
                       "col_config": {
-                          "width": "6",
+                          "width": "9",
                           "class": "",
                           "hidewcol": "",
                           "showblocktitle": "1"
