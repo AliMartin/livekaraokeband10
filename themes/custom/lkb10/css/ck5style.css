@@ -14210,6 +14210,7 @@ a > .ck-content code {
 .ck-content .page-node-type-client main .region-content,
 .ck-content .page-node-type-gallery main .region-content,
 .ck-content .page-node-type-landing main .region-content,
+.ck-content .page-node-type-musician main .region-content,
 .ck-content .page-node-type-news main .region-content,
 .ck-content .page-node-type-page main .region-content,
 .ck-content .page-node-type-review main .region-content,
@@ -14229,6 +14230,7 @@ a > .ck-content code {
 .ck-content .page-node-type-client main .region-content .field--name-field-media-image,
 .ck-content .page-node-type-gallery main .region-content .field--name-field-media-image,
 .ck-content .page-node-type-landing main .region-content .field--name-field-media-image,
+.ck-content .page-node-type-musician main .region-content .field--name-field-media-image,
 .ck-content .page-node-type-news main .region-content .field--name-field-media-image,
 .ck-content .page-node-type-page main .region-content .field--name-field-media-image,
 .ck-content .page-node-type-review main .region-content .field--name-field-media-image,
@@ -14238,9 +14240,13 @@ a > .ck-content code {
   margin-bottom: 30px;
 }
 .ck-content .page-node-type-gallery main .region-content,
+.ck-content .page-node-type-musician main .region-content,
 .ck-content .page-node-type-video main .region-content {
   max-width: inherit;
   margin-top: 60px;
+}
+.ck-content .page-node-type-musician main .region-content {
+  text-align: center;
 }
 .ck-content .page-node-type-show main .region-content {
   max-width: 600px;
@@ -14355,6 +14361,17 @@ a > .ck-content code {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+.ck-content .view-daisuke {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 11px;
+  line-height: 1;
+}
+.ck-content .view-daisuke .table-striped > tbody > tr:hover > * {
+  --bs-table-bg-type: inherit;
+  background-color: #555555;
+  color: #f5f5f7;
 }
 @media screen and (max-width: 991px) {
   .ck-content h1, .ck-content .h1,

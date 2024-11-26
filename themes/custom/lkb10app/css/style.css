@@ -2104,6 +2104,9 @@ a.bg-gray-900:hover {
 body {
   background-color: #000000;
   color: #f5f5f7;
+}
+
+body main .region-content {
   text-align: center;
 }
 

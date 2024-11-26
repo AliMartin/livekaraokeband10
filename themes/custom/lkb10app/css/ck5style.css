@@ -1686,6 +1686,8 @@
 .ck-content body {
   background-color: #000000;
   color: #f5f5f7;
+}
+.ck-content body main .region-content {
   text-align: center;
 }
 .ck-content footer {

@@ -15646,6 +15646,7 @@ body {
 .page-node-type-client main .region-content,
 .page-node-type-gallery main .region-content,
 .page-node-type-landing main .region-content,
+.page-node-type-musician main .region-content,
 .page-node-type-news main .region-content,
 .page-node-type-page main .region-content,
 .page-node-type-review main .region-content,
@@ -15665,6 +15666,7 @@ body {
 .page-node-type-client main .region-content .field--name-field-media-image,
 .page-node-type-gallery main .region-content .field--name-field-media-image,
 .page-node-type-landing main .region-content .field--name-field-media-image,
+.page-node-type-musician main .region-content .field--name-field-media-image,
 .page-node-type-news main .region-content .field--name-field-media-image,
 .page-node-type-page main .region-content .field--name-field-media-image,
 .page-node-type-review main .region-content .field--name-field-media-image,
@@ -15675,9 +15677,14 @@ body {
 }
 
 .page-node-type-gallery main .region-content,
+.page-node-type-musician main .region-content,
 .page-node-type-video main .region-content {
   max-width: inherit;
   margin-top: 60px;
+}
+
+.page-node-type-musician main .region-content {
+  text-align: center;
 }
 
 .page-node-type-show main .region-content {
@@ -15807,6 +15814,18 @@ p img {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.view-daisuke {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 11px;
+  line-height: 1;
+}
+.view-daisuke .table-striped > tbody > tr:hover > * {
+  --bs-table-bg-type: inherit;
+  background-color: #555555;
+  color: #f5f5f7;
 }
 
 @media screen and (max-width: 991px) {

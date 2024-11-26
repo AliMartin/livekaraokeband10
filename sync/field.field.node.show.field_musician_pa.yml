@@ -1,0 +1,25 @@
+uuid: 4629d93b-da1b-4ffd-976e-8a1b6802a395
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_musician_pa
+    - node.type.show
+id: node.show.field_musician_pa
+field_name: field_musician_pa
+entity_type: node
+bundle: show
+label: PA
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: skills
+      display_name: entity_reference_7
+      arguments: {  }
+field_type: entity_reference

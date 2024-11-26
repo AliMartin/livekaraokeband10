@@ -4,9 +4,23 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.show.field_dj
+    - field.field.node.show.field_line_up
+    - field.field.node.show.field_musician_bass
+    - field.field.node.show.field_musician_dj
+    - field.field.node.show.field_musician_drums
+    - field.field.node.show.field_musician_guitar
+    - field.field.node.show.field_musician_keyboards
+    - field.field.node.show.field_musician_pa
+    - field.field.node.show.field_musician_van
+    - field.field.node.show.field_musician_vocals
+    - field.field.node.show.field_requests
     - field.field.node.show.field_show_date
+    - field.field.node.show.field_show_length
     - field.field.node.show.field_show_location
     - field.field.node.show.field_song_list
+    - field.field.node.show.field_status
+    - field.field.node.show.field_town
     - node.type.show
   module:
     - field_layout
@@ -38,7 +52,21 @@ content:
     region: content
 hidden:
   created: true
+  field_dj: true
+  field_line_up: true
+  field_musician_bass: true
+  field_musician_dj: true
+  field_musician_drums: true
+  field_musician_guitar: true
+  field_musician_keyboards: true
+  field_musician_pa: true
+  field_musician_van: true
+  field_musician_vocals: true
+  field_requests: true
   field_show_date: true
+  field_show_length: true
   field_show_location: true
   field_song_list: true
+  field_status: true
+  field_town: true
   uid: true

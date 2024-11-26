@@ -21,6 +21,7 @@ body {
 .page-node-type-client,
 .page-node-type-gallery,
 .page-node-type-landing,
+.page-node-type-musician,
 .page-node-type-news,
 .page-node-type-page,
 .page-node-type-review,
@@ -46,11 +47,19 @@ body {
 
 // Node layout overrides
 .page-node-type-gallery,
-// .page-node-type-show,
+.page-node-type-musician,
 .page-node-type-video {
   main .region-content {
     max-width: inherit;
     margin-top: 60px;
+  }
+}
+
+
+// Musician layout overrides
+.page-node-type-musician {
+  main .region-content {
+    text-align: center;
   }
 }
 
@@ -211,6 +220,22 @@ p img {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+
+// Daisuke
+.view-daisuke {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 11px;
+  line-height: 1;
+
+  .table-striped > tbody > tr:hover > * {
+    --bs-table-bg-type: inherit;
+    background-color: $gray-400;
+    color: $white;
+  }
+}
+
 
 
 @media screen and (max-width: 991px) {
