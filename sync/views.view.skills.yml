@@ -6,14 +6,14 @@ dependencies:
     - node.type.musician
     - taxonomy.vocabulary.skill
   content:
-    - 'taxonomy_term:skill:48ae25b6-e1bc-468c-82af-67b9921d47fe'
-    - 'taxonomy_term:skill:4b6898b5-bc51-4257-8c1d-c4680c7b4d1c'
-    - 'taxonomy_term:skill:5916ea63-177d-4043-af45-32e24534c293'
-    - 'taxonomy_term:skill:83df999b-a0ee-49ba-8892-f5ecf05a5b74'
-    - 'taxonomy_term:skill:8cd0d3c3-e34c-4e2e-957b-514b8f9b6de5'
-    - 'taxonomy_term:skill:956999c8-3987-48dc-bf85-7e3cd5123b68'
-    - 'taxonomy_term:skill:a2e6b1c9-28be-4c83-9ec6-604f6c635097'
-    - 'taxonomy_term:skill:ce672987-d5ed-4835-8766-dbc3f5365360'
+    - 'taxonomy_term:skill:0815d46a-7d90-4261-ba94-b58f9272c7a7'
+    - 'taxonomy_term:skill:0ff80cb2-a0ee-45e9-82f6-889124106540'
+    - 'taxonomy_term:skill:111bd7e3-71d6-413b-930f-d7e3a8d7ff7e'
+    - 'taxonomy_term:skill:1135fe76-a21a-4de5-8977-3718088abebb'
+    - 'taxonomy_term:skill:16bf00f0-4d64-4163-8bb2-a1ab816344d2'
+    - 'taxonomy_term:skill:36e8b093-fdd0-4522-bbd8-2fff6adfa370'
+    - 'taxonomy_term:skill:95415d31-16f7-40b2-8696-4f2acdec6cfa'
+    - 'taxonomy_term:skill:b7e9ba22-8521-4df1-aeef-bdf5f06f09c5'
   module:
     - node
     - taxonomy
@@ -169,7 +169,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            10: 10
+            11: 11
           group: 1
           exposed: false
           expose:
@@ -311,7 +311,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            13: 13
+            10: 10
           group: 1
           exposed: false
           expose:
@@ -515,7 +515,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            11: 11
+            12: 12
           group: 1
           exposed: false
           expose:
@@ -617,7 +617,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            12: 12
+            13: 13
           group: 1
           exposed: false
           expose:
@@ -719,7 +719,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            16: 16
+            14: 14
           group: 1
           exposed: false
           expose:
@@ -821,7 +821,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            14: 14
+            15: 15
           group: 1
           exposed: false
           expose:
@@ -923,7 +923,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            15: 15
+            16: 16
           group: 1
           exposed: false
           expose:
