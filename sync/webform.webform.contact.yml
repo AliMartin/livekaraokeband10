@@ -15,7 +15,7 @@ template: false
 archive: false
 id: contact
 title: Contact
-description: 'Basic email contact webform.'
+description: '<p>Basic email contact webform.</p>'
 categories: {  }
 elements: |-
   step_1:
@@ -77,7 +77,6 @@ elements: |-
       '#title': 'Which package are you most interested in?'
       '#description': '<p><a href="/prices" target="_blank">Click here</a> to open our pricing page in a new window, with all our packages and options for you to choose from.</p>'
       '#options':
-        ninja: 'Ninja (small parties up to 100 guests)'
         samurai: 'Samurai (private parties up to 150 guests)'
         shogun: 'Shogun (corporate events up to 250 guests)'
         emperor: 'Emperor (premium events over 250 guests)'
@@ -98,7 +97,7 @@ settings:
   ajax: true
   ajax_scroll_top: form
   ajax_progress_type: throbber
-  ajax_effect: fade
+  ajax_effect: none
   ajax_speed: 500
   page: true
   page_submit_path: ''
@@ -405,6 +404,43 @@ handlers:
       states:
         - completed
       to_mail: 'info@alimartin.com,bookingagent1@tailored-entertainment.com'
+      to_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      from_mail: noreply@livekaraokeband.co.uk
+      from_options: {  }
+      from_name: '* Live Karaoke Band *'
+      reply_to: noreply@livekaraokeband.co.uk
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      subject: '* Live Karaoke Band Enquiry *'
+      body: _default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      exclude_attachments: false
+      html: false
+      attachments: false
+      twig: false
+      theme_name: ''
+      parameters: {  }
+      debug: false
+  email_notification_1:
+    id: email
+    handler_id: email_notification_1
+    label: 'Email notification - testing'
+    notes: ''
+    status: false
+    conditions: {  }
+    weight: 4
+    settings:
+      states:
+        - completed
+      to_mail: info@alimartin.com
       to_options: {  }
       bcc_mail: ''
       bcc_options: {  }

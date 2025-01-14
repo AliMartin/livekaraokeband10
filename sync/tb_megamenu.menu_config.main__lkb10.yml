@@ -109,28 +109,13 @@ menu_config: |-
                   {
                       "col_content": [
                           {
-                              "block_id": "lkb10_ninja",
-                              "type": "block",
-                              "tb_item_config": []
-                          }
-                      ],
-                      "col_config": {
-                          "width": "3",
-                          "class": "",
-                          "hidewcol": "",
-                          "showblocktitle": "1"
-                      }
-                  },
-                  {
-                      "col_content": [
-                          {
                               "block_id": "lkb10_samurai",
                               "type": "block",
                               "tb_item_config": []
                           }
                       ],
                       "col_config": {
-                          "width": "3",
+                          "width": "4",
                           "class": "",
                           "hidewcol": "",
                           "showblocktitle": "1"
@@ -145,7 +130,7 @@ menu_config: |-
                           }
                       ],
                       "col_config": {
-                          "width": "3",
+                          "width": "4",
                           "class": "",
                           "hidewcol": "",
                           "showblocktitle": "1"
@@ -160,7 +145,7 @@ menu_config: |-
                           }
                       ],
                       "col_config": {
-                          "width": "3",
+                          "width": "4",
                           "class": "",
                           "hidewcol": "",
                           "showblocktitle": "1"
