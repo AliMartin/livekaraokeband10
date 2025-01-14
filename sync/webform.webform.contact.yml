@@ -80,6 +80,7 @@ elements: |-
         samurai: 'Samurai (private parties up to 150 guests)'
         shogun: 'Shogun (corporate events up to 250 guests)'
         emperor: 'Emperor (premium events over 250 guests)'
+        custom: Custom
       '#required': true
     details:
       '#type': textarea

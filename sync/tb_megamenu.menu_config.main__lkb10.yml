@@ -115,7 +115,7 @@ menu_config: |-
                           }
                       ],
                       "col_config": {
-                          "width": "4",
+                          "width": "3",
                           "class": "",
                           "hidewcol": "",
                           "showblocktitle": "1"
@@ -130,7 +130,7 @@ menu_config: |-
                           }
                       ],
                       "col_config": {
-                          "width": "4",
+                          "width": "3",
                           "class": "",
                           "hidewcol": "",
                           "showblocktitle": "1"
@@ -145,7 +145,22 @@ menu_config: |-
                           }
                       ],
                       "col_config": {
-                          "width": "4",
+                          "width": "3",
+                          "class": "",
+                          "hidewcol": "",
+                          "showblocktitle": "1"
+                      }
+                  },
+                  {
+                      "col_content": [
+                          {
+                              "block_id": "lkb10_custom",
+                              "type": "block",
+                              "tb_item_config": []
+                          }
+                      ],
+                      "col_config": {
+                          "width": "3",
                           "class": "",
                           "hidewcol": "",
                           "showblocktitle": "1"
