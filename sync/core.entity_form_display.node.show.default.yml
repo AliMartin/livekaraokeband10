@@ -10,14 +10,14 @@ dependencies:
     - field.field.node.show.field_musician_drums
     - field.field.node.show.field_musician_guitar
     - field.field.node.show.field_musician_keyboards
-    - field.field.node.show.field_musician_pa
-    - field.field.node.show.field_musician_van
     - field.field.node.show.field_musician_vocals
+    - field.field.node.show.field_pa
     - field.field.node.show.field_requests
     - field.field.node.show.field_show_date
     - field.field.node.show.field_show_length
     - field.field.node.show.field_show_location
     - field.field.node.show.field_song_list
+    - field.field.node.show.field_sound
     - field.field.node.show.field_status
     - field.field.node.show.field_town
     - node.type.show
@@ -65,7 +65,7 @@ content:
     third_party_settings: {  }
   field_musician_dj:
     type: options_select
-    weight: 26
+    weight: 27
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -87,21 +87,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_musician_pa:
-    type: options_select
-    weight: 25
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_musician_van:
-    type: options_select
-    weight: 24
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_musician_vocals:
     type: options_select
     weight: 19
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_pa:
+    type: options_select
+    weight: 25
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -134,11 +128,17 @@ content:
     third_party_settings: {  }
   field_song_list:
     type: webform_entity_reference_select
-    weight: 27
+    weight: 28
     region: content
     settings:
       default_data: true
       webforms: {  }
+    third_party_settings: {  }
+  field_sound:
+    type: options_select
+    weight: 26
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_status:
     type: options_select
