@@ -67,6 +67,7 @@ elements: |-
       '#title_display': invisible
       '#placeholder': "What's your telephone number?"
       '#format_items': comma
+      '#required': true
   step_5:
     '#type': webform_wizard_page
     '#title': 'Step 5'
