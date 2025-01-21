@@ -14315,6 +14315,8 @@ a > .ck-content code {
 .ck-content .field--name-field-hero img,
 .ck-content .field--name-field-media-image img {
   border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
 .ck-content #block-lkb10-page-title {
   display: none;

@@ -15761,6 +15761,8 @@ blockquote ul:last-child {
 .field--name-field-hero img,
 .field--name-field-media-image img {
   border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
 
 #block-lkb10-page-title {
