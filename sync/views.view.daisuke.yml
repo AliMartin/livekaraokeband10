@@ -19,6 +19,7 @@ dependencies:
     - field.storage.node.field_town
     - node.type.show
     - user.role.administrator
+    - user.role.host
   module:
     - datetime
     - node
@@ -998,6 +999,7 @@ display:
         options:
           role:
             administrator: administrator
+            host: host
       cache:
         type: tag
         options: {  }
