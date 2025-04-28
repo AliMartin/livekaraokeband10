@@ -1,0 +1,3 @@
+plugins:
+  title_suggest: openai__gpt-4o
+  tone: openai__gpt-4o
