@@ -14,6 +14,7 @@ dependencies:
     - file
     - layout_discovery
     - manage_display
+    - metatag
     - text
 third_party_settings:
   field_layout:
@@ -51,6 +52,13 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
   field_teaser:
     type: basic_string
     label: hidden
@@ -61,7 +69,7 @@ content:
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 5
+    weight: 6
     region: content
   title:
     type: title
@@ -74,5 +82,4 @@ content:
     region: content
 hidden:
   created: true
-  field_metatag: true
   uid: true

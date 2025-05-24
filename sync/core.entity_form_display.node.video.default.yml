@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.video.body
+    - field.field.node.video.field_metatag
     - field.field.node.video.field_youtube
     - node.type.video
   module:
     - field_layout
     - layout_discovery
+    - metatag
     - path
     - text
     - youtube
@@ -37,6 +39,14 @@ content:
     weight: 4
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_metatag:
+    type: metatag_firehose
+    weight: 11
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_youtube:
     type: youtube

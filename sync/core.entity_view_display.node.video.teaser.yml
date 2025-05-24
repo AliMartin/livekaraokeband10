@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.video.body
+    - field.field.node.video.field_metatag
     - field.field.node.video.field_youtube
     - node.type.video
   module:
@@ -46,5 +47,6 @@ content:
     region: content
 hidden:
   created: true
+  field_metatag: true
   field_youtube: true
   uid: true

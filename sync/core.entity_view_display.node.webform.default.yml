@@ -13,6 +13,7 @@ dependencies:
     - field_layout
     - layout_discovery
     - manage_display
+    - metatag
     - text
     - webform
 third_party_settings:
@@ -32,21 +33,28 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 4
+    weight: 3
     region: content
   field_button:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 2
+    region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_teaser:
     type: basic_string
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   title:
     type: title
@@ -55,7 +63,7 @@ content:
       link_to_entity: false
       tag: h1
     third_party_settings: {  }
-    weight: -49
+    weight: 0
     region: content
   webform:
     type: webform_entity_reference_entity_view
@@ -64,10 +72,9 @@ content:
       source_entity: true
       lazy: false
     third_party_settings: {  }
-    weight: 5
+    weight: 4
     region: content
 hidden:
   created: true
-  field_metatag: true
   links: true
   uid: true

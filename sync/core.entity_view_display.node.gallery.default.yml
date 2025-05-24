@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.gallery.body
     - field.field.node.gallery.field_media_image
+    - field.field.node.gallery.field_metatag
     - field.field.node.gallery.field_teaser
     - image.style.gallery_thumbnail
     - node.type.gallery
@@ -13,6 +14,7 @@ dependencies:
     - field_layout
     - layout_discovery
     - manage_display
+    - metatag
     - slick
     - text
 third_party_settings:
@@ -98,6 +100,13 @@ content:
       visible_items: null
     third_party_settings: {  }
     weight: 3
+    region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
     region: content
   field_teaser:
     type: basic_string

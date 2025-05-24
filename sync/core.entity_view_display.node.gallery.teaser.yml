@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.gallery.body
     - field.field.node.gallery.field_media_image
+    - field.field.node.gallery.field_metatag
     - field.field.node.gallery.field_teaser
     - image.style.medium
     - node.type.gallery
@@ -60,5 +61,6 @@ content:
     region: content
 hidden:
   created: true
+  field_metatag: true
   field_teaser: true
   uid: true

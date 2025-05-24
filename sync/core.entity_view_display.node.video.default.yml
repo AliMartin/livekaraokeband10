@@ -4,12 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.video.body
+    - field.field.node.video.field_metatag
     - field.field.node.video.field_youtube
     - node.type.video
   module:
     - field_layout
     - layout_discovery
     - manage_display
+    - metatag
     - text
     - youtube
 third_party_settings:
@@ -28,6 +30,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
     region: content
   field_youtube:
     type: youtube_video
