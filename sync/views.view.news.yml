@@ -772,7 +772,8 @@ display:
           tokenize: false
       display_extenders:
         metatag_display_extender:
-          metatags: {  }
+          metatags:
+            canonical_url: 'https://livekaraokeband.co.uk/news'
           tokenize: false
       path: news
       menu:

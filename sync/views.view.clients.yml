@@ -272,7 +272,8 @@ display:
           tokenize: false
       display_extenders:
         metatag_display_extender:
-          metatags: {  }
+          metatags:
+            canonical_url: 'https://livekaraokeband.co.uk/clients'
           tokenize: false
       path: clients
       menu:
