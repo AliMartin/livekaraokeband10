@@ -1,28 +1,25 @@
-uuid: a21e03c8-5644-49c7-b32b-57b60e81ba31
+uuid: a5d324df-a2cd-4e35-9b0c-34223bb3e332
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - options
-id: node.field_status
-field_name: field_status
+id: node.field_enquiry_source
+field_name: field_enquiry_source
 entity_type: node
 type: list_string
 settings:
   allowed_values:
     -
-      value: lead
-      label: Lead
+      value: website
+      label: Website
     -
-      value: enquiry
-      label: Enquiry
+      value: tailored_entertainment
+      label: 'Tailored Entertainment'
     -
-      value: confirmed
-      label: Confirmed
-    -
-      value: dead
-      label: Dead
+      value: hitched
+      label: Hitched
   allowed_values_function: ''
 module: options
 locked: false

@@ -1,21 +1,21 @@
-uuid: 353bd2c2-4593-4bec-b592-a78b8b0af23e
+uuid: 112de130-daf6-47fe-b57e-29098b80eb27
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_show_date
+    - field.storage.node.field_enquiry_source
     - node.type.show
   module:
-    - datetime
-id: node.show.field_show_date
-field_name: field_show_date
+    - options
+id: node.show.field_enquiry_source
+field_name: field_enquiry_source
 entity_type: node
 bundle: show
-label: 'Show date'
+label: 'Enquiry source'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: datetime
+field_type: list_string
