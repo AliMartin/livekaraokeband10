@@ -17,6 +17,9 @@ settings:
     -
       value: enquiry
       label: Enquiry
+    -
+      value: dead
+      label: Dead
   allowed_values_function: ''
 module: options
 locked: false
