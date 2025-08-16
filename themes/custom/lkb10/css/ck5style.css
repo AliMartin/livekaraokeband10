@@ -14387,6 +14387,18 @@ a > .ck-content code {
   background-color: #555555;
   color: #f5f5f7;
 }
+.ck-content table.table {
+  font-size: 0.8rem;
+}
+.ck-content table.table tbody > tr > * {
+  --bs-table-bg-type: inherit;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #f5f5f7;
+  border-bottom: 1px solid #555555;
+}
+.ck-content table.table tbody > tr:last-of-type > * {
+  border-bottom: none;
+}
 @media screen and (max-width: 991px) {
   .ck-content h1, .ck-content .h1,
 .ck-content .field--name-title h1 {

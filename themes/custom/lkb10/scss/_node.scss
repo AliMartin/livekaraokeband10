@@ -239,6 +239,24 @@ p img {
 }
 
 
+// Tables
+table.table {
+  font-size: 0.8rem;
+
+  tbody > tr > * {
+    --bs-table-bg-type: inherit;
+    background-color: rgba(0,0,0,0.6);
+    color: $white;
+    border-bottom: 1px solid $gray-400;
+  }
+
+  tbody > tr:last-of-type > * {
+    border-bottom: none;
+  }
+
+}
+
+
 
 @media screen and (max-width: 991px) {
   h1,
