@@ -53,6 +53,7 @@ module:
   jquery_ui_slider: 0
   jquery_ui_touch_punch: 0
   key: 0
+  klaro: 0
   layout_discovery: 0
   link: 0
   linkit: 0

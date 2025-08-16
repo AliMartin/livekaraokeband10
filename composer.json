@@ -64,6 +64,7 @@
         "drupal/jquery_ui_datepicker": "^2.1",
         "drupal/jquery_ui_slider": "^2.1",
         "drupal/jquery_ui_touch_punch": "^1.1",
+        "drupal/klaro": "^3.0",
         "drupal/libraries": "^4.0",
         "drupal/linkchecker": "^2.0@alpha",
         "drupal/linkit": "^7.0",
@@ -105,7 +106,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
