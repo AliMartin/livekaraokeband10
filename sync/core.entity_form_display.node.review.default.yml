@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.review.field_media_image
     - field.field.node.review.field_meta_tags
     - field.field.node.review.field_metatag
-    - field.field.node.review.field_yoast_seo
     - node.type.review
   module:
     - field_layout
@@ -16,7 +15,6 @@ dependencies:
     - metatag
     - path
     - text
-    - yoast_seo
 third_party_settings:
   field_layout:
     id: layout_onecol
@@ -57,13 +55,6 @@ content:
     settings:
       sidebar: false
       use_details: true
-    third_party_settings: {  }
-  field_yoast_seo:
-    type: yoast_seo_widget
-    weight: 11
-    region: content
-    settings:
-      body: body
     third_party_settings: {  }
   path:
     type: path

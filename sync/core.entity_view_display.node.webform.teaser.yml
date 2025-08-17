@@ -9,7 +9,6 @@ dependencies:
     - field.field.node.webform.field_meta_tags
     - field.field.node.webform.field_metatag
     - field.field.node.webform.field_teaser
-    - field.field.node.webform.field_yoast_seo
     - field.field.node.webform.webform
     - node.type.webform
   module:
@@ -57,6 +56,5 @@ hidden:
   field_meta_tags: true
   field_metatag: true
   field_teaser: true
-  field_yoast_seo: true
   uid: true
   webform: true
