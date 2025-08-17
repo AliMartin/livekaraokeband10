@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.client.field_media_image
+    - field.field.node.client.field_meta_tags
     - field.field.node.client.field_metatag
     - node.type.client
   module:
@@ -34,6 +35,14 @@ content:
     region: content
     settings:
       media_types: {  }
+    third_party_settings: {  }
+  field_meta_tags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_metatag:
     type: metatag_firehose

@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.show.field_enquiry_date
     - field.field.node.show.field_enquiry_source
     - field.field.node.show.field_line_up
+    - field.field.node.show.field_meta_tags
     - field.field.node.show.field_musician_bass
     - field.field.node.show.field_musician_dj
     - field.field.node.show.field_musician_drums
@@ -58,6 +59,7 @@ hidden:
   field_enquiry_date: true
   field_enquiry_source: true
   field_line_up: true
+  field_meta_tags: true
   field_musician_bass: true
   field_musician_dj: true
   field_musician_drums: true

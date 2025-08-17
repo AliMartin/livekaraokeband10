@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.show.field_enquiry_date
     - field.field.node.show.field_enquiry_source
     - field.field.node.show.field_line_up
+    - field.field.node.show.field_meta_tags
     - field.field.node.show.field_musician_bass
     - field.field.node.show.field_musician_dj
     - field.field.node.show.field_musician_drums
@@ -28,6 +29,7 @@ dependencies:
     - field_layout
     - layout_discovery
     - manage_display
+    - metatag
     - webform
 third_party_settings:
   field_layout:
@@ -39,6 +41,13 @@ targetEntityType: node
 bundle: show
 mode: default
 content:
+  field_meta_tags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
   field_show_date:
     type: datetime_default
     label: hidden

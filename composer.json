@@ -95,6 +95,7 @@
         "drupal/webform_content_creator": "^4.0",
         "drupal/webform_views": "^5.0@alpha",
         "drupal/xmlsitemap": "^2.0",
+        "drupal/yoast_seo": "^1.9",
         "drupal/youtube": "^3.0@beta",
         "drush/drush": "^12.5",
         "jackmoore/colorbox": "^1.6",

@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.show.field_enquiry_date
     - field.field.node.show.field_enquiry_source
     - field.field.node.show.field_line_up
+    - field.field.node.show.field_meta_tags
     - field.field.node.show.field_musician_bass
     - field.field.node.show.field_musician_dj
     - field.field.node.show.field_musician_drums
@@ -28,6 +29,7 @@ dependencies:
     - field_group
     - field_layout
     - layout_discovery
+    - metatag
     - path
     - scheduler
     - webform
@@ -171,6 +173,14 @@ content:
     weight: 30
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_meta_tags:
+    type: metatag_firehose
+    weight: 32
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_musician_bass:
     type: options_select

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.background_image.body
     - field.field.node.background_image.field_image
+    - field.field.node.background_image.field_meta_tags
     - field.field.node.background_image.field_metatag
     - node.type.background_image
   module:
@@ -46,6 +47,14 @@ content:
     region: content
     settings:
       progress_indicator: throbber
+    third_party_settings: {  }
+  field_meta_tags:
+    type: metatag_firehose
+    weight: 123
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_metatag:
     type: metatag_firehose

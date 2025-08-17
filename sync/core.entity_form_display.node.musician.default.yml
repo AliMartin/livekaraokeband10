@@ -3,11 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.musician.field_meta_tags
     - field.field.node.musician.field_skill
     - node.type.musician
   module:
     - field_layout
     - layout_discovery
+    - metatag
     - path
 third_party_settings:
   field_layout:
@@ -24,6 +26,14 @@ content:
     weight: 3
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_meta_tags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_skill:
     type: options_buttons

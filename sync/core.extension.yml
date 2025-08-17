@@ -110,6 +110,7 @@ module:
   webform_views: 0
   xmlsitemap_custom: 0
   xmlsitemap_engines: 0
+  yoast_seo: 0
   youtube: 0
   filefield_sources: 1
   pathauto: 1
