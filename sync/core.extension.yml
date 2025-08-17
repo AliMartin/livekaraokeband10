@@ -32,6 +32,7 @@ module:
   dynamic_entity_reference: 0
   dynamic_page_cache: 0
   editor: 0
+  fb_likebox: 0
   field: 0
   field_group: 0
   field_layout: 0

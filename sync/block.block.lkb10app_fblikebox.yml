@@ -1,0 +1,42 @@
+uuid: 82078388-e362-478b-90c8-df05b296f6b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - fb_likebox
+    - user
+  theme:
+    - lkb10app
+id: lkb10app_fblikebox
+theme: lkb10app
+region: content
+weight: 2
+provider: null
+plugin: fb_likebox_block
+settings:
+  id: fb_likebox_block
+  label: 'Sing it, love it, like it!'
+  label_display: visible
+  provider: fb_likebox
+  url: 'https://www.facebook.com/livekaraokeband'
+  app_id: ''
+  hide_header: 1
+  stream: 0
+  events: 0
+  messages: 0
+  show_faces: '0'
+  title: facebook-like
+  width: 275
+  height: 100
+  hide_cta: 0
+  small_header: 1
+  adapt_container_width: 1
+  language: en_GB
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
