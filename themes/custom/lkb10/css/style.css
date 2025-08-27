@@ -15858,6 +15858,10 @@ table.table tbody > tr:last-of-type > * {
   border-bottom: none;
 }
 
+body.path-daisuke .table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: inherit;
+}
+
 @media screen and (max-width: 991px) {
   h1, .h1,
 .field--name-title h1 {

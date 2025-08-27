@@ -256,6 +256,11 @@ table.table {
 
 }
 
+body.path-daisuke {
+  .table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-bg-type: inherit;
+  }  
+}
 
 
 @media screen and (max-width: 991px) {

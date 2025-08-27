@@ -14399,6 +14399,9 @@ a > .ck-content code {
 .ck-content table.table tbody > tr:last-of-type > * {
   border-bottom: none;
 }
+.ck-content body.path-daisuke .table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: inherit;
+}
 @media screen and (max-width: 991px) {
   .ck-content h1, .ck-content .h1,
 .ck-content .field--name-title h1 {

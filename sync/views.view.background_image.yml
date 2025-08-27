@@ -123,7 +123,7 @@ display:
         options:
           perm: 'access content'
       cache:
-        type: none
+        type: tag
         options: {  }
       empty: {  }
       sorts:
@@ -142,7 +142,7 @@ display:
           exposed: false
           user_seed_type: same_per_user
           anonymous_session: false
-          reset_seed_int: 0
+          reset_seed_int: 86400
           reset_seed_custom: 10
           reuse_seed: ''
       arguments: {  }

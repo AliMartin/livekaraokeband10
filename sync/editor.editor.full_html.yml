@@ -15,9 +15,6 @@ settings:
       - '|'
       - bold
       - italic
-      - strikethrough
-      - superscript
-      - subscript
       - removeFormat
       - '|'
       - link
@@ -29,7 +26,6 @@ settings:
       - drupalInsertImage
       - drupalMedia
       - insertTable
-      - horizontalLine
       - '|'
       - heading
       - codeBlock
