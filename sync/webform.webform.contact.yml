@@ -2,6 +2,8 @@ uuid: 8680484f-d2cc-419f-a866-c9b7882c4b3d
 langcode: en
 status: open
 dependencies:
+  module:
+    - webform_remote_handlers
   enforced:
     module:
       - webform
@@ -312,6 +314,7 @@ handlers:
       attachments: false
       twig: false
       theme_name: ''
+      langcode: ''
       parameters: {  }
       debug: false
   email_notification:
@@ -349,6 +352,7 @@ handlers:
       attachments: false
       twig: false
       theme_name: ''
+      langcode: ''
       parameters: {  }
       debug: false
   email_notification_corporate:
@@ -389,6 +393,7 @@ handlers:
       attachments: false
       twig: false
       theme_name: ''
+      langcode: ''
       parameters: {  }
       debug: false
   email_notification_private:
@@ -429,6 +434,7 @@ handlers:
       attachments: false
       twig: false
       theme_name: ''
+      langcode: ''
       parameters: {  }
       debug: false
   email_notification_1:
@@ -466,6 +472,34 @@ handlers:
       attachments: false
       twig: false
       theme_name: ''
+      langcode: ''
       parameters: {  }
       debug: false
+  rest:
+    id: rest_handler
+    handler_id: rest
+    label: 'Bookings connector'
+    notes: ''
+    status: false
+    conditions: {  }
+    weight: 4
+    settings:
+      method: post
+      debug: false
+      endpoint: 'https://bookings.livekaraokeband.co.uk/jsonapi/node/booking'
+      endpoint_oauth_token: ''
+      username: apiuser
+      password: SuperSecure123
+      auth_type: basic
+      request: "{\r\n  \"data\": {\r\n    \"type\": \"node--booking\",\r\n    \"attributes\": {\r\n      \"title\": \"[webform_submission:values:name]\",\r\n      \"field_enquiry_source\": \"13\"\r\n    }\r\n  }\r\n}"
+      response: ''
+      success_value: ''
+      message: ''
+      purging: false
+      base64encode: false
+      base64string: ''
+      base64response: ''
+      enablesslverification: false
+      headers: "Content-Type: application/vnd.api+json\r\nAccept: application/vnd.api+json"
+      result_values: ''
 variants: {  }

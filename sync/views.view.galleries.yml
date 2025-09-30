@@ -781,7 +781,7 @@ display:
         type: normal
         title: Galleries
         description: ''
-        weight: -33
+        weight: -32
         enabled: false
         expanded: false
         menu_name: menu-mmenu

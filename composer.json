@@ -93,6 +93,7 @@
         "drupal/views_random_seed": "^1.2",
         "drupal/webform": "^6.3@beta",
         "drupal/webform_content_creator": "^4.0",
+        "drupal/webform_remote_handlers": "^3.0",
         "drupal/webform_views": "^5.0@alpha",
         "drupal/xmlsitemap": "^2.0",
         "drupal/yoast_seo": "^1.9",
